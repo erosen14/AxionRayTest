@@ -31,3 +31,13 @@ Launches the test runner in the interactive watch mode.
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
+
+Ideas for Future Enhancements
+- Advanced Search: Implement advanced search options to filter repositories based on stars, forks, and other criteria.
+  - This currently isnt supported by the GitHub API, but could be implemented by fetching all repositories and filtering them in the client or in a backend service.
+- OAuth Integration: Implement GitHub authentication to allow users to increase API limit and manage their repositories directly from the application.
+- Mobile Optimization: Enhance responsiveness for mobile devices to improve accessibility and user experience.
+- CI/CD Pipelines: Setup continuous integration and deployment pipelines to automate testing and deployment processes.
+- Error Handling: Improve error handling and user feedback for failed API requests or invalid search queries.
+- Accessibility / Dark Mode: Implement ui improvements for accessibility and dark mode for users who prefer it.
+```
